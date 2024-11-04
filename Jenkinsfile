@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('Build HelloWorld') {
             steps {
-                sh 'javac src/main/java/org/example/HelloWorld.java'
-                sh 'java -cp src/main/java org.example.HelloWorld'
+                sh 'javac src/main/java/org/example/Hello_world.java'
+                sh 'java -cp src/main/java org.example.Hello_world'
             }
         }
         stage('Build Merci') {
